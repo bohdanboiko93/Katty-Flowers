@@ -1,0 +1,42 @@
+.main_section {
+  margin: 0 auto;
+}
+
+.introductory {
+  width: 100%;
+  height: 75vh;
+  background-image: url("content/icons/flowers_fone.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.introductury_text {
+  padding-top: 70px;
+  margin: 0 auto;
+  display: block;
+  max-width: 1000px;
+
+  text-align: center;
+  color: #333;
+  font-size: 25px;
+}
+
+.text_about_store {
+  margin-top: 45px;
+}
+
+.main_header {
+  font-size: 75px;
+  font-weight: 400px;
+  padding-bottom: 50px;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+.about_store {
+  padding-bottom: 15px;
+}

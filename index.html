@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="UA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katty Flowers</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <header class="header">
+      <nav class="nav">
+        <a class="logo" href="/"
+          ><img class="logo_img" src="content/icons/logo.jpg" alt="LOGO"
+        /></a>
+        <ul class="nav_list">
+          <li class="nav_item">Про нас</li>
+          <li class="nav_item">Каталог</li>
+          <li class="nav_item">Контакти</li>
+          <li class="nav_item">Доставка</li>
+        </ul>
+        <div class="sclm_wrapper">
+          <div class="social_media_and_language">
+            <div class="language-switcher">
+              <a class="language" href="">UA</a>
+              <span>|</span>
+              <a class="language" href="">CZ</a>
+            </div>
+            <a class="social_media_item inst" href=""
+              ><img src="content/icons/Instagram.png" alt="Instagram"
+            /></a>
+            <a class="social_media_item facebook" href=""
+              ><img src="content/icons/Facebook.png" alt="Facebook"
+            /></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="main_section">
+      <div class="introductory">
+        <div class="introductury_text">
+          <h1 class="main_header">KATTY FLOWERS</h1>
+          <div class="text_about_store">
+            <p class="about_store">
+              Ласкаво просимо до вашого куточку краси в Празі!
+            </p>
+            <p>
+              У нашому квітковому магазині кожна композиція – це витвір
+              мистецтва, створений з любов’ю та турботою. Ми даруємо квіти, які
+              надихають, піднімають настрій і стають чарівним акцентом у
+              будь-якому житті.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="gallery_header">
+        <h2>Каталог</h2>
+      </div>
+      <div class="gallery_wrapper">
+        <button
+          class="gallery_arrow gallery_arrow_prev"
+          onclick="carouselMove(false)"
+        >
+          <i class="fas fa_arrow_left"></i>
+        </button>
+        <button
+          class="gallery_arrow gallery_arrow_next"
+          onclick="carouselMove()"
+        >
+          <i class="fas fa_arrow_right"></i>
+        </button>
+
+        <ul class="gallery_list">
+          <li class="gallery_item">
+            <img
+              class="gallery_item_img"
+              src="content/gallery/beige_bouquet.jpg"
+              alt="beige bouquet"
+            />
+            <div class="gallery_text_wrapper">
+              <p class="gallery_item_name">Бежевий букет</p>
+              <p class="gallery_price">2500 kč</p>
+            </div>
+            <button class="gallery_order_button">Купити букет</button>
+          </li>
+          <li class="gallery_item">
+            <img
+              class="gallery_item_img"
+              src="content/gallery/pink_bouquet.jpg"
+              alt="pink bouquet"
+            />
+            <div class="gallery_text_wrapper">
+              <p class="gallery_item_name">Розовий букет</p>
+              <p class="gallery_price">2500 kč</p>
+            </div>
+            <button class="gallery_order_button">Купити букет</button>
+          </li>
+          <li class="gallery_item">
+            <img
+              class="gallery_item_img"
+              src="content/gallery/yellow_bouquet.jpg"
+              alt="yellow bouquet"
+            />
+            <div class="gallery_text_wrapper">
+              <p class="gallery_item_name">Жовтий букет</p>
+              <p class="gallery_price">2500 kč</p>
+            </div>
+            <button class="gallery_order_button">Купити букет</button>
+          </li>
+          <li class="gallery_item">
+            <img
+              class="gallery_item_img"
+              src="content/gallery/man_with_bouquet.jpg"
+              alt="man with bouquet"
+            />
+            <div class="gallery_text_wrapper">
+              <p class="gallery_item_name">Мужик і букет</p>
+              <p class="gallery_price">2500 kč</p>
+            </div>
+            <button class="gallery_order_button">Купити букет</button>
+          </li>
+          <li class="gallery_item">
+            <img
+              class="gallery_item_img"
+              src="content/gallery/weeding_bouquet.jpg"
+              alt="weeding bouquet"
+            />
+            <div class="gallery_text_wrapper">
+              <p class="gallery_item_name">Бежевий букет</p>
+              <p class="gallery_price">2500 kč</p>
+            </div>
+            <button class="gallery_order_button">Купити букет</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
