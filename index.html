@@ -20,11 +20,24 @@
           ><img class="logo_img" src="content/icons/logo.jpg" alt="LOGO"
         /></a>
         <ul class="nav_list">
-          <li class="nav_item">Про нас</li>
-          <li class="nav_item">Каталог</li>
-          <li class="nav_item">Контакти</li>
-          <li class="nav_item">Доставка</li>
+          <li class="nav_item">
+            <a href="">Про нас</a>
+          </li>
+          <li class="nav_item">
+            <a href="">Каталог</a>
+          </li>
+          <li class="nav_item">
+            <a href="">Контакти</a>
+          </li>
+          <li class="nav_item">
+            <a href="">Доставка</a>
+          </li>
         </ul>
+
+        <div class="js_burger_btn burger_btn">
+          <img src="content/burger/burger_icon.png" alt="Burger icon" />
+        </div>
+
         <div class="sclm_wrapper">
           <div class="social_media_and_language">
             <div class="language-switcher">
@@ -42,6 +55,42 @@
         </div>
       </nav>
     </header>
+
+    <section class="burger js-burger">
+      <div class="burger_content js-burger_content">
+        <div class="burger_container">
+          <a class="burger_logo" href="/"
+            ><img
+              class="logo_img"
+              src="content/icons/logo.jpg"
+              alt="LOGO in burger"
+          /></a>
+          <ul class="burger_nav">
+            <li class="burger_nav_link">
+              <a href="">Про нас</a>
+            </li>
+            <li class="burger_nav_link">
+              <a href="">Каталог</a>
+            </li>
+            <li class="burger_nav_link">
+              <a href="">Контакти</a>
+            </li>
+            <li class="burger_nav_link">
+              <a href="">Доставка</a>
+            </li>
+          </ul>
+          <div class="burger_contacts_container">
+            <p class="burger_contacts_text">для зв'язку:</p>
+            <a href="tel:+420 776 235 201" class="burger_contact">
+              +420 776 235 201
+            </a>
+            <a href="mailto:katty.florist22@seznam.cz" class="burger_contact"
+              >katty.florist22@seznam.cz
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="main_section">
       <div class="introductory">
@@ -144,6 +193,7 @@
         </ul>
       </div>
     </section>
+    <script src="burger.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
