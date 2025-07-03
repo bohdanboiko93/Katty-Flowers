@@ -112,17 +112,20 @@
   margin-bottom: 10px;
 }
 
+@media (max-width: 1150px) {
+  .nav_list {
+    gap: 35px;
+  }
+}
+
 @media (max-width: 975px) {
   .nav_list {
-    gap: 40px;
-  }
-
-  .nav_list {
+    position: relative;
     display: none;
   }
 
   .burger_btn {
-    display: block;
+    position: absolute;
     z-index: 101;
     display: flex;
     flex-direction: column;
@@ -130,7 +133,7 @@
     background-color: red;
     background: none;
     top: 30px;
-    right: 15px;
+    right: 32px;
   }
 
   .sclm_wrapper {
