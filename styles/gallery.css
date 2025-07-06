@@ -119,3 +119,27 @@
     margin: 16px 8px;
   }
 }
+
+@media (max-width: 768px) {
+  .gallery_item {
+    flex: 1 0 100%;
+    min-width: 100%;
+    scroll-snap-align: start;
+  }
+
+  .gallery_wrapper {
+    max-width: 100%;
+    padding: 0 38px;
+  }
+
+  .gallery_list {
+    margin: 16px 0;
+    scroll-snap-type: x mandatory;
+  }
+
+  .gallery_arrow {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+}
