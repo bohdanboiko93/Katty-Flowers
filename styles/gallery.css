@@ -122,10 +122,22 @@
 }
 
 @media (max-width: 768px) {
+  .gallery {
+    padding-top: 35px;
+  }
+
+  .gallery_header {
+    padding-bottom: 20px;
+  }
+
   .gallery_item {
     flex: 1 0 100%;
     min-width: 100%;
     scroll-snap-align: start;
+  }
+
+  .gallery_item_img {
+    height: 500px;
   }
 
   .gallery_wrapper {
