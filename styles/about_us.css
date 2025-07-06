@@ -1,0 +1,38 @@
+.about_us {
+  margin: 0 auto;
+  margin-top: 85px;
+  margin-bottom: 75px;
+  max-width: 1200px;
+}
+
+.about_us_header {
+  margin-bottom: 25px;
+  padding: 0px 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.information {
+  max-width: 1000px;
+  font-size: 20px;
+  padding: 8px 50px;
+}
+
+.about_us_list {
+  list-style-type: disc;
+  padding: 25px 70px;
+}
+.text_wrapper {
+  max-width: 800px;
+  margin: auto;
+}
+.list_item {
+  padding: 5px 0px;
+  font-size: 20px;
+}
+
+@media (max-width: 550px) {
+  .about_us_header {
+    max-width: 450px;
+  }
+}

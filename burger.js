@@ -22,3 +22,21 @@ function toggleBurger() {
     bodyNode.classList.toggle(BODY_FIXED_CLASSNAME);
     burgerBtnNode.classList.toggle(BURGER_BTN_OPENED_CLASSNAME);
 }
+
+const burgerBtn = document.querySelector('.js_burger_btn');
+const burgerIcon = burgerBtn.querySelector('.burger-icon');
+const closeIcon = burgerBtn.querySelector('.burger_close_btn');
+
+burgerBtn.addEventListener('click', function() {
+  // Переключаем видимость иконок
+  if (burgerIcon.style.display === 'none') {
+    burgerIcon.style.display = 'block';
+    closeIcon.style.display = 'none';
+  } else {
+    burgerIcon.style.display = 'none';
+    closeIcon.style.display = 'block';
+  }
+  
+  // Здесь также можно добавить код для открытия/закрытия меню
+  // document.querySelector('.menu').classList.toggle('open');
+});

@@ -12,6 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body class="body">
     <header class="header">
@@ -20,22 +24,31 @@
           ><img class="logo_img" src="content/icons/logo.jpg" alt="LOGO"
         /></a>
         <ul class="nav_list">
-          <li class="nav_item">
-            <a href="">Про нас</a>
+          <li>
+            <a class="nav_item" href="#aboutus">Про нас</a>
           </li>
-          <li class="nav_item">
-            <a href="">Каталог</a>
+          <li>
+            <a class="nav_item" href="">Каталог</a>
           </li>
-          <li class="nav_item">
-            <a href="">Контакти</a>
+          <li>
+            <a class="nav_item" href="">Доставка</a>
           </li>
-          <li class="nav_item">
-            <a href="">Доставка</a>
+          <li>
+            <a class="nav_item" href="">Контакти</a>
           </li>
         </ul>
 
         <div class="js_burger_btn burger_btn">
-          <img src="content/burger/burger_icon.png" alt="Burger icon" />
+          <img
+            src="content/burger/burger-menu.svg"
+            alt="Burger menu"
+            class="burger-icon"
+          />
+          <img
+            src="content/burger/burger-close.svg"
+            alt="Burger close"
+            class="burger_close_btn"
+          />
         </div>
 
         <div class="sclm_wrapper">
@@ -45,11 +58,17 @@
               <span>|</span>
               <a class="language" href="">CZ</a>
             </div>
-            <a class="social_media_item inst" href=""
-              ><img src="content/icons/Instagram.png" alt="Instagram"
+            <a href=""
+              ><img
+                class="social_media_item"
+                src="content/icons/instagram.svg"
+                alt="Instagram"
             /></a>
-            <a class="social_media_item facebook" href=""
-              ><img src="content/icons/Facebook.png" alt="Facebook"
+            <a href=""
+              ><img
+                class="social_media_item"
+                src="content/icons/facebook.svg"
+                alt="Facebook"
             /></a>
           </div>
         </div>
@@ -66,17 +85,17 @@
               alt="LOGO in burger"
           /></a>
           <ul class="burger_nav">
-            <li class="burger_nav_link">
-              <a href="">Про нас</a>
+            <li>
+              <a class="burger_nav_link" href="">Про нас</a>
             </li>
-            <li class="burger_nav_link">
-              <a href="">Каталог</a>
+            <li>
+              <a class="burger_nav_link" href="">Каталог</a>
             </li>
-            <li class="burger_nav_link">
-              <a href="">Контакти</a>
+            <li>
+              <a class="burger_nav_link" href="">Контакти</a>
             </li>
-            <li class="burger_nav_link">
-              <a href="">Доставка</a>
+            <li>
+              <a class="burger_nav_link" href="">Доставка</a>
             </li>
           </ul>
           <div class="burger_contacts_container">
@@ -108,6 +127,43 @@
       </div>
     </section>
 
+    <section id="aboutus" class="about_us">
+      <h2 class="about_us_header">Букети квітів з доставкою по Празі</h2>
+      <div class="text_wrapper">
+        <p class="information">
+          У каталозі на kettyflowers.cz ви знайдете фірмові букети, які ми
+          повторимо для вас або ваших адресатів – ознайомтеся з нашими
+          колекціями.
+        </p>
+        <p class="information">
+          Хочете щось особливе? Ми виконаємо індивідуальне замовлення! У нашому
+          асортименті є:
+        </p>
+        <ol class="about_us_list">
+          <li class="list_item">троянди(французькі, кущові, класичні)</li>
+          <li class="list_item">гербери</li>
+          <li class="list_item">дельфініум</li>
+          <li class="list_item">ромашки</li>
+          <li class="list_item">еустома</li>
+          <li class="list_item">нарциси</li>
+          <li class="list_item">антуріум</li>
+          <li class="list_item">гортензії</li>
+          <li class="list_item">піони</li>
+          <li class="list_item">орхідеї</li>
+        </ol>
+        <p class="information">
+          а також багато інших видів в найкращій якості.
+        </p>
+        <p class="information">
+          Ми створюємо статусні букети з ажурними трояндами великих розмірів,
+          які здатні вразити людей, що цінують витонченість та естетику.
+          Кінцевий букет на 99% збігається з фото на сайті – допустимі невеликі
+          відмінності у відтінку чи формі квітів: це не впливає на загальний
+          вигляд, геометрію, колірну гаму та об’єм композиції.
+        </p>
+      </div>
+    </section>
+
     <section class="gallery">
       <div class="gallery_header">
         <h2>Каталог</h2>
@@ -117,13 +173,13 @@
           class="gallery_arrow gallery_arrow_prev"
           onclick="carouselMove(false)"
         >
-          <i class="fas fa_arrow_left"></i>
+          <i class="fas fa-arrow-left"></i>
         </button>
         <button
           class="gallery_arrow gallery_arrow_next"
           onclick="carouselMove()"
         >
-          <i class="fas fa_arrow_right"></i>
+          <i class="fas fa-arrow-right"></i>
         </button>
 
         <ul class="gallery_list">

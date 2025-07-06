@@ -21,8 +21,13 @@
 }
 
 .nav_item {
-  color: rgb(63, 63, 63);
+  color: #000000;
   font-size: 25px;
+  text-decoration: none;
+}
+
+.nav_item:hover {
+  opacity: 0.7;
 }
 
 .language {
@@ -40,8 +45,23 @@
   vertical-align: middle;
 }
 
+.social_media_item {
+  height: 25px;
+  width: 25px;
+}
+
 .burger_btn {
   display: none;
+  height: 45px;
+  width: 45px;
+  transition: all 0.3s ease;
+}
+
+.burger_close_btn {
+  width: 50px;
+  height: 50px;
+  display: none;
+  transition: all 0.3s ease;
 }
 
 .burger {
@@ -73,7 +93,7 @@
 }
 
 .burger_container {
-  margin-top: 80px;
+  margin-top: 23px;
   margin-left: 30px;
 }
 
@@ -132,8 +152,8 @@
     gap: 10px;
     background-color: red;
     background: none;
-    top: 30px;
-    right: 32px;
+    right: 20px;
+    cursor: pointer;
   }
 
   .sclm_wrapper {
