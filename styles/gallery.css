@@ -92,6 +92,7 @@
   padding: 0px 25px;
   display: flex;
   justify-content: space-between;
+  gap: 50px;
 }
 
 .gallery_order_button {
