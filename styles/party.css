@@ -1,0 +1,63 @@
+.party_wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.party_header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  color: #333;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  text-align: center;
+}
+
+.party_wrapper_background {
+  background-color: #e9c0d4;
+  padding: 30px 30px;
+}
+
+.party_text_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.party_text {
+  font-size: 24px;
+  padding: 10px 0px;
+}
+
+.party_list_item {
+  padding: 6px 0px;
+  font-size: 20px;
+}
+
+.party_text_agitation {
+  padding: 10px 0px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.weeding_img {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+@media (max-width: 1200px) {
+  .party_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
