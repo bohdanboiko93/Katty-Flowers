@@ -129,7 +129,12 @@
   font-size: 20px;
   color: #121212;
   text-decoration: none;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.sclm_burger {
+  display: flex;
+  gap: 15px;
 }
 
 @media (max-width: 1150px) {
