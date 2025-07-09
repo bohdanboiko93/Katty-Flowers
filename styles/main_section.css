@@ -18,11 +18,11 @@
 
 .main_header {
   font-size: clamp(2.5rem, 8vw, 5rem);
-  font-weight: 400px;
   letter-spacing: 0.1em;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 5px;
+
+  color: #ffffff;
+
+  -webkit-text-stroke: 1px #e96177;
 }
 
 .introductory_content {
@@ -44,7 +44,7 @@
   }
 
   .introductory_content {
-    margin-top: 5vh;
+    margin-top: 3vh;
     max-width: 90%;
   }
 }
