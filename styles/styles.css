@@ -5,6 +5,7 @@
 @import url(party.css);
 @import url(all_other_party.css);
 @import url(delivery.css);
+@import url(contacts.css);
 
 .body {
   max-width: 100%;
