@@ -25,12 +25,13 @@
 }
 
 .map {
-  max-width: 450px;
-  height: 40vh;
+  width: 100%;
+  max-width: 800px;
+  min-width: 280px;
+  height: 50vh;
+  min-height: 250px;
   border-radius: 15px;
-  padding: 0px 10px;
 }
-
 .delivery-info {
   background-color: #f9f9f9;
   padding: 15px;
@@ -98,8 +99,20 @@ h3 {
   }
 }
 
+@media (max-width: 768px) {
+  .map {
+    height: 40vh;
+    border-radius: 10px;
+  }
+}
+
 @media (max-width: 560px) {
   .delivery_button {
     width: 100%;
+  }
+
+  .map {
+    height: 35vh;
+    border-radius: 8px;
   }
 }
